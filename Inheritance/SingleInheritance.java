@@ -1,4 +1,4 @@
-package Inheritance;
+//package Inheritance;
 
 //In Single Inheritance one class extends another class (one class only).
 class Parent {
