@@ -17,6 +17,10 @@ class NestedTry{
                  System.out.print("Arithmetic Exception");
                  System.out.println(" handled in try-block3");
              }
+
+             finally{
+                 System.out.println("This is the first finally"); //Not getting executed
+             }
          }
          //catch-block2
          catch(ArithmeticException e)
@@ -35,6 +39,10 @@ class NestedTry{
         {
          System.out.print("ArrayIndexOutOfBoundsException");
          System.out.println(" handled in main try-block");
+        }
+
+        finally{
+            System.out.println("This is the last finally");
         }
    }
  }
